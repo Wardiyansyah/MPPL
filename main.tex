@@ -1,0 +1,353 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[indonesian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{geometry}
+\geometry{
+left=3cm,
+right=3cm,
+top=3cm,
+bottom=3cm
+}
+
+\usepackage{newtxtext, newtxmath}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{hyperref}
+
+% \hypersetup{
+% colorlinks=true,
+% linkcolor=blue,
+% urlcolor=blue
+% }
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    
+    {\Large \textbf{IDENTIFIKASI PROYEK PERANGKAT LUNAK}} \\[0.4cm]
+    {\large Pengembangan Aplikasi Absensi Mahasiswa Berbasis Mobile}
+    
+    \vspace{2.5cm}
+    
+    \includegraphics[width=5cm]{images/unipi.png}
+    
+    \vspace{2.5cm} 
+    
+    {\large Disusun Oleh:} \\[0.4cm]
+    \begin{tabular}{ll}
+        \textbf{Nama} & : Wardiyansyah \\
+        \textbf{NIM}  & : 2024807039 \\
+    \end{tabular} \\[0.6cm]
+    
+    \vspace{\fill}
+    {\large PROGRAM STUDI SOFTWARE ENGINEERING}\\
+    {\large FAKULTAS ILMU KOMPUTER}\\
+    {\large UNIVERSITAS INSAN PEMBANGUNAN INDONESIA} \\
+    {\large 2026}
+    
+\end{titlepage}
+% ==================== END OF COVER ====================
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Pendahuluan}
+
+\subsection{Latar Belakang}
+
+Perkembangan teknologi informasi mendorong berbagai institusi pendidikan untuk melakukan transformasi digital. Salah satu aktivitas yang masih banyak dilakukan secara manual adalah proses absensi mahasiswa.
+
+Absensi manual memiliki beberapa kelemahan seperti membutuhkan waktu yang lama, rawan kesalahan pencatatan, sulit direkap, serta berpotensi terjadi manipulasi data. Oleh karena itu diperlukan suatu sistem absensi berbasis mobile yang mampu meningkatkan efektivitas dan efisiensi proses pencatatan kehadiran.
+
+Menurut PMBOK, proyek merupakan suatu usaha sementara yang dilakukan untuk menghasilkan produk atau layanan yang unik. Pengembangan aplikasi absensi mahasiswa memenuhi karakteristik tersebut karena memiliki tujuan yang jelas, waktu pelaksanaan tertentu, anggaran, sumber daya manusia, serta menghasilkan sebuah perangkat lunak yang unik.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Rumusan Masalah}
+
+\begin{enumerate}
+\item Apa saja kegiatan dalam proyek pengembangan aplikasi absensi?
+\item SDM apa saja yang dibutuhkan?
+\item Keterampilan apa yang diperlukan?
+\item Berapa estimasi waktu pengerjaan proyek?
+\item Berapa estimasi biaya proyek?
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Tujuan}
+
+\begin{enumerate}
+\item Mengidentifikasi aktivitas proyek.
+\item Mengidentifikasi kebutuhan SDM.
+\item Menentukan keterampilan yang diperlukan.
+\item Mengestimasi waktu proyek.
+\item Mengestimasi biaya proyek.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Landasan Teori}
+
+\subsection{Pengertian Proyek}
+
+Menurut PMBOK, proyek adalah usaha sementara yang dilakukan untuk menghasilkan produk, layanan, atau hasil yang unik.
+
+Suatu proyek memiliki karakteristik:
+
+\begin{itemize}
+\item Memiliki awal dan akhir.
+\item Bersifat sementara.
+\item Memiliki ruang lingkup tertentu.
+\item Memiliki biaya.
+\item Memiliki jadwal.
+\item Menghasilkan produk yang unik.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Manajemen Proyek}
+
+Manajemen proyek merupakan proses penerapan pengetahuan, keterampilan, alat, dan teknik dalam melaksanakan aktivitas proyek agar tujuan proyek dapat dicapai sesuai ruang lingkup, waktu, biaya, dan kualitas yang telah ditentukan.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Triple Constraint}
+
+Keberhasilan proyek dipengaruhi oleh tiga faktor utama yaitu:
+
+\begin{enumerate}
+\item Scope
+\item Time
+\item Cost
+\end{enumerate}
+
+Ketiga aspek tersebut harus dikelola secara seimbang.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Identifikasi Proyek}
+
+\subsection{Nama Proyek}
+
+Pengembangan Aplikasi Absensi Mahasiswa Berbasis Mobile.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Deskripsi Proyek}
+
+Proyek ini bertujuan membangun aplikasi mobile yang digunakan oleh mahasiswa dan dosen dalam melakukan proses absensi secara digital.
+
+Fitur utama aplikasi:
+
+\begin{itemize}
+\item Login
+\item Absensi berbasis lokasi
+\item Riwayat absensi
+\item Rekapitulasi kehadiran
+\item Dashboard dosen
+\item Laporan kehadiran
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Tujuan Proyek}
+
+\begin{enumerate}
+\item Mempermudah proses absensi.
+\item Mengurangi penggunaan kertas.
+\item Mempercepat rekapitulasi data.
+\item Meningkatkan akurasi data.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Ruang Lingkup}
+
+Ruang lingkup proyek meliputi:
+
+\begin{itemize}
+\item Analisis kebutuhan
+\item Desain sistem
+\item Pembuatan database
+\item Backend API
+\item Aplikasi Android
+\item Pengujian
+\item Implementasi
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Tahapan Kegiatan Proyek}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{clp{8cm}}
+\toprule
+No & Tahapan & Aktivitas\\
+\midrule
+1 & Inisiasi & Identifikasi masalah, tujuan proyek, stakeholder\\
+2 & Analisis & Analisis kebutuhan pengguna dan sistem\\
+3 & Desain & Perancangan database, UI/UX dan arsitektur\\
+4 & Pengembangan & Coding backend dan aplikasi Android\\
+5 & Pengujian & Unit Test, Integration Test, User Acceptance Test\\
+6 & Implementasi & Deploy sistem dan pelatihan pengguna\\
+7 & Penutupan & Dokumentasi dan evaluasi proyek\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Sumber Daya Manusia}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{clp{8cm}}
+\toprule
+No & Posisi & Tugas\\
+\midrule
+1 & Project Manager & Mengelola proyek\\
+2 & System Analyst & Analisis kebutuhan\\
+3 & UI/UX Designer & Mendesain antarmuka\\
+4 & Backend Developer & Membuat API\\
+5 & Mobile Developer & Mengembangkan aplikasi\\
+6 & Quality Assurance & Pengujian aplikasi\\
+7 & Trainer & Pelatihan pengguna\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Keterampilan yang Dibutuhkan}
+
+\begin{itemize}
+\item Project Management
+\item System Analysis
+\item Flutter Development
+\item Backend Development
+\item REST API
+\item SQL Database
+\item UI/UX Design
+\item Software Testing
+\item Communication Skill
+\item Problem Solving
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Estimasi Waktu}
+
+Estimasi pengerjaan proyek selama 12 minggu.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+Tahapan & Durasi\\
+\midrule
+Inisiasi & 1 minggu\\
+Analisis & 2 minggu\\
+Desain & 2 minggu\\
+Pengembangan & 4 minggu\\
+Testing & 2 minggu\\
+Implementasi & 1 minggu\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Estimasi Biaya}
+
+\subsection{Biaya SDM}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Posisi & Total\\
+\midrule
+Project Manager & Rp15.000.000\\
+System Analyst & Rp8.000.000\\
+UI/UX Designer & Rp3.500.000\\
+Backend Developer & Rp13.500.000\\
+Mobile Developer & Rp13.500.000\\
+Quality Assurance & Rp3.000.000\\
+Trainer & Rp2.000.000\\
+\midrule
+Subtotal & Rp58.500.000\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{0.5cm}
+
+\subsection{Biaya Operasional}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lr}
+\toprule
+Kebutuhan & Biaya\\
+\midrule
+Hosting dan Domain & Rp2.000.000\\
+Internet & Rp1.500.000\\
+Administrasi & Rp1.000.000\\
+Meeting & Rp1.500.000\\
+Perangkat Pendukung & Rp5.000.000\\
+\midrule
+Subtotal & Rp11.000.000\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{0.5cm}
+
+Total Anggaran:
+
+\[
+58.500.000 + 11.000.000 + 10\% = Rp76.450.000
+\]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Risiko Proyek}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{5cm}p{4cm}p{5cm}}
+\toprule
+Risiko & Dampak & Mitigasi\\
+\midrule
+Perubahan kebutuhan & Jadwal mundur & Validasi kebutuhan\\
+Developer sakit & Pekerjaan terlambat & Backup personel\\
+Bug aplikasi & Implementasi gagal & Testing berkala\\
+Server bermasalah & Sistem tidak berjalan & Backup server\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Kesimpulan}
+
+Pengembangan aplikasi absensi mahasiswa merupakan proyek perangkat lunak yang memiliki tujuan, ruang lingkup, waktu, biaya, dan sumber daya yang jelas. Berdasarkan identifikasi proyek, estimasi waktu pengerjaan adalah selama 12 minggu dengan total anggaran sebesar Rp76.450.000. Melalui manajemen risiko yang tepat dan pembagian tugas SDM yang terstruktur, proyek ini diharapkan mampu menghasilkan sistem yang andal untuk meminimalkan kecurangan absensi serta mempercepat rekapitulasi data mahasiswa di institusi.
+
+\end{document}

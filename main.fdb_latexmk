@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1784557552.98136 "c:/Users/asus/OneDrive/Documents/LaTex/tes/main.tex" "main.pdf" "main" 1784557555.73293 0
-  "c:/Users/asus/OneDrive/Documents/LaTex/tes/main.tex" 1784557549 11076 05e57ed164d2193286115ac61308841a ""
+["pdflatex"] 1784557709.53082 "c:/Users/asus/OneDrive/Documents/LaTex/tes/main.tex" "main.pdf" "main" 1784557712.24585 0
+  "c:/Users/asus/OneDrive/Documents/LaTex/tes/main.tex" 1784557710 11076 c7ebc755732bc7e0b2e5633585b8751d ""
   "d:/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1784515774 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
   "d:/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1784515774 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "d:/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1784517760 3124 3813fd4c981d99822890a2861b0d274c ""
@@ -128,10 +128,10 @@
   "d:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784519257 3656539 b6c27e4efdfef824a46431942001485c ""
   "d:/texlive/2026/texmf.cnf" 1784518997 713 e69b156964470283e0530f5060668171 ""
   "images/unipi.png" 1776438708 180917 d38766629448bd3d70a14506a006f67f ""
-  "main.aux" 1784557555 3739 6b476d4ef9c41138dcb116d03ce90a72 "pdflatex"
-  "main.out" 1784557555 3841 851325a71de7368cac46b74b53543d27 "pdflatex"
-  "main.tex" 1784557549 11076 05e57ed164d2193286115ac61308841a ""
-  "main.toc" 1784557555 2299 bc6e97270e6b8e120fca84c848817005 "pdflatex"
+  "main.aux" 1784557712 3739 6b476d4ef9c41138dcb116d03ce90a72 "pdflatex"
+  "main.out" 1784557712 3841 851325a71de7368cac46b74b53543d27 "pdflatex"
+  "main.tex" 1784557710 11076 c7ebc755732bc7e0b2e5633585b8751d ""
+  "main.toc" 1784557712 2299 bc6e97270e6b8e120fca84c848817005 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

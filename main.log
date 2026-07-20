@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.20)  20 JUL 2026 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.20)  20 JUL 2026 21:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -698,7 +698,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 111.
  [3{d:/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [4] [5] [6] [7]
-Overfull \hbox (7.54723pt too wide) in paragraph at lines 390--400
+Overfull \hbox (7.54723pt too wide) in paragraph at lines 391--401
  [][] 
  []
 
@@ -719,7 +719,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  74i,9n,79p,586b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2026/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on main.pdf (10 pages, 242544 bytes).
+Output written on main.pdf (10 pages, 242545 bytes).
 PDF statistics:
  267 PDF objects out of 1000 (max. 8388607)
  237 compressed objects within 3 object streams

@@ -242,13 +242,13 @@ INPUT d:/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT d:/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT d:/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT d:/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
+INPUT d:/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT d:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT d:/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
 OUTPUT main.toc
-INPUT d:/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT d:/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT d:/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT d:/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd

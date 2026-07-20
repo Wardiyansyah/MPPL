@@ -23,12 +23,6 @@ bottom=3cm
 \usepackage{float}
 \usepackage{hyperref}
 
-% \hypersetup{
-% colorlinks=true,
-% linkcolor=blue,
-% urlcolor=blue
-% }
-
 \begin{document}
 
 \begin{titlepage}
@@ -36,6 +30,9 @@ bottom=3cm
     
     {\Large \textbf{IDENTIFIKASI PROYEK PERANGKAT LUNAK}} \\[0.4cm]
     {\large Pengembangan Aplikasi Absensi Mahasiswa Berbasis Mobile}
+
+    {Disusun untuk memenuhi Tugas Mata Kuliah Manajemen Proyek Perangkat Lunak}\\
+    {Dosen Pengampu: Yulis Nuryanti, S.Kom., M.Kom.}
     
     \vspace{2.5cm}
     
@@ -46,14 +43,14 @@ bottom=3cm
     {\large Disusun Oleh:} \\[0.4cm]
     \begin{tabular}{ll}
         \textbf{Nama} & : Wardiyansyah \\
-        \textbf{NIM}  & : 2024807039 \\
+        \textbf{NPM}  & : 2024807039 \\
     \end{tabular} \\[0.6cm]
     
     \vspace{\fill}
-    {\large PROGRAM STUDI SOFTWARE ENGINEERING}\\
-    {\large FAKULTAS ILMU KOMPUTER}\\
-    {\large UNIVERSITAS INSAN PEMBANGUNAN INDONESIA} \\
-    {\large 2026}
+    {\large \textbf{PROGRAM STUDI SOFTWARE ENGINEERING}}\\
+    {\large \textbf{FAKULTAS ILMU KOMPUTER}}\\
+    {\large \textbf{UNIVERSITAS INSAN PEMBANGUNAN INDONESIA}} \\
+    {\large \textbf{2026}}
     
 \end{titlepage}
 % ==================== END OF COVER ====================
@@ -191,64 +188,122 @@ Ruang lingkup proyek meliputi:
 \item Implementasi
 \end{itemize}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Studi Kelayakan Proyek}
 
-\section{Tahapan Kegiatan Proyek}
+\subsection{Kelayakan Teknis}
 
-\begin{table}[H]
-\centering
-\begin{tabular}{clp{8cm}}
-\toprule
-No & Tahapan & Aktivitas\\
-\midrule
-1 & Inisiasi & Identifikasi masalah, tujuan proyek, stakeholder\\
-2 & Analisis & Analisis kebutuhan pengguna dan sistem\\
-3 & Desain & Perancangan database, UI/UX dan arsitektur\\
-4 & Pengembangan & Coding backend dan aplikasi Android\\
-5 & Pengujian & Unit Test, Integration Test, User Acceptance Test\\
-6 & Implementasi & Deploy sistem dan pelatihan pengguna\\
-7 & Penutupan & Dokumentasi dan evaluasi proyek\\
-\bottomrule
-\end{tabular}
-\end{table}
+Dari sisi teknis, proyek ini layak dilaksanakan karena teknologi yang digunakan telah banyak diterapkan dalam pengembangan aplikasi mobile.\\
+Teknologi yang digunakan:
+\begin{itemize}
+    \item Flutter
+    \item Laravel
+    \item MySQL
+    \item Android Studio
+    \item Visual Studio Code
+    \item GitHub
+\end{itemize}
+Seluruh perangkat lunak tersebut bersifat open source sehingga tidak memerlukan biaya lisensi.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Kelayakan Operasional}
 
-\section{Sumber Daya Manusia}
+Sistem dapat digunakan oleh seluruh dosen dan mahasiswa karena hampir seluruh civitas akademika telah memiliki smartphone Android.
 
-\begin{table}[H]
-\centering
-\begin{tabular}{clp{8cm}}
-\toprule
-No & Posisi & Tugas\\
-\midrule
-1 & Project Manager & Mengelola proyek\\
-2 & System Analyst & Analisis kebutuhan\\
-3 & UI/UX Designer & Mendesain antarmuka\\
-4 & Backend Developer & Membuat API\\
-5 & Mobile Developer & Mengembangkan aplikasi\\
-6 & Quality Assurance & Pengujian aplikasi\\
-7 & Trainer & Pelatihan pengguna\\
-\bottomrule
-\end{tabular}
-\end{table}
+Proses absensi menjadi lebih cepat dibandingkan absensi menggunakan kertas sehingga meningkatkan efisiensi pekerjaan bagian akademik.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Kelayakan Ekonomi}
 
-\section{Keterampilan yang Dibutuhkan}
+Penerapan sistem mampu mengurangi biaya operasional berupa:
 
 \begin{itemize}
-\item Project Management
-\item System Analysis
-\item Flutter Development
-\item Backend Development
-\item REST API
-\item SQL Database
-\item UI/UX Design
-\item Software Testing
-\item Communication Skill
-\item Problem Solving
+    \item kertas absensi
+    \item Penyimpanan dokumen
+    \item Waktu rekap absensi
+    \item Kesalahan pencatatan data
 \end{itemize}
+
+Walaupun memerlukan biaya pengembangan pada awal proyek, dalam jangka panjang sistem mampu menghemat biaya operasional kampus.
+
+\subsection{Kelayakan Hukum}
+
+Pengembangan aplikasi mengikuti ketentuan mengenai perlindungan data pribadi serta hanya menyimpan informasi yang berkaitan dengan kegiatan akademik.
+
+Hak akses dibedakan menjadi:
+\begin{itemize}
+    \item Administrator
+    \item dosen
+    \item Mahasiswa
+\end{itemize}
+
+\subsection{Kelayakan Jadwal}
+
+Estimasi waktu pengembangan adalah 12 minggu, sehingga proyek dinilai layak dilaksanakan oleh tim yang terdiri dari enam sampai tujuh orang.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Perencanaan Proyek}
+
+\subsection{Stakeholder}
+
+Stakeholder yang terlibat pada proyek ini terdiri atas:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ll}
+\toprule
+Stakeholder & Peran\\
+\midrule
+Project Owner & Menyetujui proyek dan menyediakan anggaran\\
+Project Manager & Mengelola keseluruhan proyek\\
+Dosen & Memberikan kebutuhan sistem\\
+Mahasiswa & Pengguna Aplikasi\\
+Tim Developer & Mengembangkan aplikasi\\
+QA Tester & Menguji aplikasi\\
+Bagian Akademik & Mengelola data absensi\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Sumber Daya Manusia}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+Jabatan & Jumlah\\
+\midrule
+Project Manager & 1\\
+System Analyst & 1\\
+UI/UX Designer & 1\\
+Backend Developer & 1\\
+Mobile Developer & 1\\
+QA Tester & 1\\
+Trainer & 1\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Keterampilan yang Dibutuhkan}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ll}
+    \toprule
+    Jabatan & Keterampilan\\
+    \midrule
+    Project Manager & Leadership, Scheduling, Risk Management\\
+    System Analyst & Analisis kebutuhan sistem\\
+    UI Designer & Figma, UI/UX Design\\
+    Backend Developer & Laravel, REST API, PHP\\
+    Mobile Developer & Flutter, Dart\\
+    QA Tester & Black Box Testing, Bug Reporting\\
+    Trainer & Public Speaking, Dokumentasi\\
+    \bottomrule
+    \end{tabular}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
